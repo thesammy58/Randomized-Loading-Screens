@@ -21,6 +21,8 @@ ASI mod for The Sims 3 that randomizes your loading screen before each startup. 
 
 In order to make my loading screens still scale with a user's chosen Tiny UI Fix setting, a workaround had to be put in place. The ASI will check to see if a Tiny UI Fix package exists in the Mods/TinyUIFix directory. If one does, the ASI will harvest the randomly chosen loading screen's matching native LAYO (native meanting that SPECIFIC expansion/stuff pack's layout resource ID) from Tiny UI Fix, and inject that scaled LAYO in its entirety back in to our chosen loading screen. Since my loading screens each have 21 identical LAYO entries (so that the loading screen looks the same regardless of the user's latest installed pack), each package file has been stamped with a different marker resource, identifying to the ASI exactly which specific pack's LAYO should be harvested from Tiny UI Fix and injected back into all 21 of our LAYOs.
 
+One limitation/edge case: since they lack my own marker resources, custom loading screens placed in Game/Bin/MyLoadingScreens will not automatically scale.
+
 # Localizations
 
 Several game localizations generate a user-data folder in a language other than "The Sims 3". In order to place the chosen loading screen (and its log file, resource.cfg edit, etc) in to the correct Sims 3 folder, a detection hierarchy was put in place in case one method fails. It is ordered as such:
