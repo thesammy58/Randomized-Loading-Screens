@@ -27,7 +27,8 @@ One limitation/edge case: since they lack my own marker resources, custom loadin
 
 Several game localizations generate a user-data folder in a language other than "The Sims 3". In order to place the chosen loading screen (and its log file, resource.cfg edit, etc) in to the correct Sims 3 folder, a detection hierarchy was put in place in case one method fails. It is ordered as such:
 
+2. Mods directory override inside the code (left blank for public release)
 1. An optional .ini file specifying folder language (downloaded by the user if detection methods fail)
 2. The game's registry entry
 3. The user's operating system locale
-4. Simply assume the folder is titled "The Sims 3"
+4. Simply assume the folder is titled "The Sims 3" when all else fails
