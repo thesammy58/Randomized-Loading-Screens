@@ -15,7 +15,7 @@ ASI mod for The Sims 3 that randomizes your loading screen before each startup. 
 
 -Check for a Tiny UI Fix installation (more on this below)
 
--Save each action to a log file to help with troubleshooting if something doesn't work for you
+-Save each action to a log file to help with troubleshooting if something doesn't work for you. The log resets after exceeding 256kb.
 
 # Tiny UI Fix stuff
 
