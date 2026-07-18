@@ -3,7 +3,7 @@ ASI mod for The Sims 3 that randomizes your loading screen before each startup. 
 
 # What it'll do as soon as you launch the game:
 
--Read from a pool of available loading screen packages in Bin\MyLoadingScreens (comes preloaded with all packs, also supports custom loading screens)
+-Read from a pool of available loading screen packages in Bin\MyLoadingScreens (comes preloaded with all packs in all localizations, also supports custom loading screens)
 
 -Detect your locale based on the game's registry entries, with multiple detection fallbacks in place if registry read fails
 
