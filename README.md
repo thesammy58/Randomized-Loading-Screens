@@ -9,7 +9,7 @@ ASI mod for The Sims 3 that randomizes your loading screen before each startup. 
 
 -Copy randomly selected loading screen package to a new folder called "LoadingScreen" located inside your mods folder. It will be called active_loadingscreen.package
 
--On first run, add a new entry to resource.cfg ensuring this package takes precedence over all other potential loading screen UI edits (it will first save a back up of your current resource.cfg to the LoadingScreen folder, just in case)
+-Add/check for a new entry to resource.cfg ensuring this package takes precedence over all other potential loading screen UI edits (it will first save a back up of your current resource.cfg to the LoadingScreen folder before editing it, just in case)
 
 -Writes to a file called last_pick.txt (also in the LoadingScreen folder) to help ensure that the same loading screen is never randomly selected twice in a row
 
