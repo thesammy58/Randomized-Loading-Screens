@@ -1,5 +1,5 @@
 # Randomized-Loading-Screens
-ASI mod for The Sims 3 that randomizes your loading screen before each startup. Designed to require as little configuration and brain power from the player as I could possibly manage. Just drag-and-drop the ASI file and MyLoadingScreens folder to your Program Files\EA Games\The Sims 3\Game\Bin directory.
+ASI mod for The Sims 3 that randomizes your loading screen before each startup. Designed to require as little configuration and brain power from the player as I could possibly manage. Just drag-and-drop the ASI file and MyLoadingScreens folder to your Program Files\EA Games\The Sims 3\Game\Bin directory. Requires an ASI loader to work.
 
 # What it'll do as soon as you launch the game:
 
