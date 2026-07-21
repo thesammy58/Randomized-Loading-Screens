@@ -25,7 +25,7 @@
 // Switch to 'false' to turn off logging
 static const bool LOGGING = true;
 
-static const wchar_t* MOD_VERSION = L"1.4f";
+static const wchar_t* MOD_VERSION = L"1.4.6";
 
 // Mods folder override; takes precedence over every other method of detection
 static const wchar_t* MODS_DIR = L"";
